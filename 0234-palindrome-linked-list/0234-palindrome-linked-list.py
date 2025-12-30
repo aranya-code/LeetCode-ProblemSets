@@ -20,15 +20,12 @@ class Solution:
             prev = slow
             slow = next_node
 
-        left = head
-        right = prev
-
-        while right:
-            if left.val != right.val:
+        while prev:
+            if head.val != prev.val:
                 return False
             
-            left = left.next
-            right = right.next
+            head = head.next
+            prev = prev.next
         
         return True
         
