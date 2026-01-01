@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0027-remove-element) |
 | [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Linked List
 |  |
 | ------- |
@@ -59,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0234-palindrome-linked-list) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 <!---LeetCode Topics End-->
