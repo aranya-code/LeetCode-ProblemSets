@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0009-palindrome-number) |
 | [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
 ## Array
 |  |
@@ -13,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0027-remove-element) |
 | [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
+| [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 ## Two Pointers
@@ -20,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0027-remove-element](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0027-remove-element) |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
+| [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0876-middle-of-the-linked-list) |
 ## Hash Table
