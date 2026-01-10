@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Array
 |  |
 | ------- |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Two Pointers
 |  |
 | ------- |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0234-palindrome-linked-list) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
 ## Stack
 |  |
 | ------- |
@@ -68,4 +71,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+## Queue
+|  |
+| ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
+## Simulation
+|  |
+| ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
 <!---LeetCode Topics End-->
