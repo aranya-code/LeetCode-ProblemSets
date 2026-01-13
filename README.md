@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0027-remove-element) |
+| [0048-rotate-image](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
 | [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0217-contains-duplicate) |
@@ -94,4 +96,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
