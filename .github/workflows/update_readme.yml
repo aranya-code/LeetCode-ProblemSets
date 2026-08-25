@@ -6,7 +6,7 @@ on:
       - master
       - main
     paths:
-      - '****-**/**' # Triggers only when a new problem folder is pushed
+      - '[0-9][0-9][0-9][0-9]-*/**' # Matches folders like 0001-two-sum/
 
 jobs:
   update-readme:
