@@ -7,36 +7,67 @@ README_PATH = "README.md"
 START_MARKER = "<!---LeetCode Topics Start-->"
 END_MARKER = "<!---LeetCode Topics End-->"
 
+# Dictionary mapping problem slugs to (Difficulty, Topic Tags)
+PROBLEM_DATA = {
+    "two-sum": ("🟢 Easy", "Array, Hash Table"),
+    "add-two-numbers": ("🟡 Medium", "Linked List, Math, Recursion"),
+    "palindrome-number": ("🟢 Easy", "Math"),
+    "remove-nth-node-from-end-of-list": ("🟡 Medium", "Linked List, Two Pointers"),
+    "merge-two-sorted-lists": ("🟢 Easy", "Linked List, Recursion"),
+    "remove-element": ("🟢 Easy", "Array, Two Pointers"),
+    "rotate-image": ("🟡 Medium", "Array, Math, Matrix"),
+    "plus-one": ("🟢 Easy", "Array, Math"),
+    "remove-duplicates-from-sorted-list-ii": ("🟡 Medium", "Linked List, Two Pointers"),
+    "remove-duplicates-from-sorted-list": ("🟢 Easy", "Linked List"),
+    "partition-list": ("🟡 Medium", "Linked List, Two Pointers"),
+    "same-tree": ("🟢 Easy", "Tree, Depth-First Search, Breadth-First Search"),
+    "intersection-of-two-linked-lists": ("🟢 Easy", "Hash Table, Linked List, Two Pointers"),
+    "rotate-array": ("🟡 Medium", "Array, Math, Two Pointers"),
+    "remove-linked-list-elements": ("🟢 Easy", "Linked List, Recursion"),
+    "reverse-linked-list": ("🟢 Easy", "Linked List, Recursion"),
+    "contains-duplicate": ("🟢 Easy", "Array, Hash Table, Sorting"),
+    "palindrome-linked-list": ("🟢 Easy", "Linked List, Two Pointers, Stack, Recursion"),
+    "missing-number": ("🟢 Easy", "Array, Hash Table, Math, Binary Search, Bit Manipulation"),
+    "third-maximum-number": ("🟢 Easy", "Array, Sorting"),
+    "middle-of-the-linked-list": ("🟢 Easy", "Linked List, Two Pointers"),
+    "maximum-product-of-two-elements-in-an-array": ("🟢 Easy", "Array, Sorting, Heap"),
+    "find-the-winner-of-the-circular-game": ("🟡 Medium", "Array, Math, Recursion, Queue, Simulation"),
+    "combine-two-tables": ("🟢 Easy", "Database")
+}
+
 def get_problem_folders():
     """Scans the directory for folders formatted as digits-problem-name."""
-    # Matches any folder starting with one or more digits followed by a hyphen
     folders = [f for f in os.listdir('.') if os.path.isdir(f) and re.match(r'^\d+-', f)]
-    
-    # Sorts the folders numerically based on the integer value of the ID
     folders.sort(key=lambda x: int(x.split('-')[0]))
-    
     return folders
 
 def format_problem_name(folder_name):
-    """Parses folder names and ensures a 4-digit ID format."""
+    """Parses folder names and retrieves associated difficulty and tags."""
     parts = folder_name.split('-', 1)
     if len(parts) == 2:
-        # .zfill(4) ensures '175' becomes '0175' while '0001' stays '0001'
         problem_id = parts[0].zfill(4)
-        # Replace hyphens with spaces and capitalize words
-        title = parts[1].replace('-', ' ').title()
-        return problem_id, title
-    return "-", folder_name
+        slug = parts[1]
+        
+        # Format title and fetch data
+        title = slug.replace('-', ' ').title()
+        difficulty, tags = PROBLEM_DATA.get(slug, ("⚪ Unknown", "Uncategorized"))
+        
+        return problem_id, title, difficulty, tags, slug
+    return "-", folder_name, "⚪ Unknown", "Uncategorized", folder_name
 
 def generate_markdown_table(folders):
-    """Generates a clean, 3-column markdown table."""
+    """Generates a clean, 5-column markdown table including difficulty and tags."""
     markdown = "## 📝 All Solved Problems\n\n"
-    markdown += "| # | Problem Title | Solution |\n"
-    markdown += "| :---: | :--- | :---: |\n"
+    markdown += "| # | Problem Title | Difficulty | Topic Tags | Solution |\n"
+    markdown += "| :---: | :--- | :---: | :--- | :---: |\n"
     
     for folder in folders:
-        problem_id, title = format_problem_name(folder)
-        markdown += f"| {problem_id} | **{title}** | [💻 View Code]({REPO_URL}{folder}) |\n"
+        problem_id, title, difficulty, tags, slug = format_problem_name(folder)
+        
+        # Format tags with inline code blocks for a clean UI look
+        formatted_tags = " ".join([f"`{tag.strip()}`" for tag in tags.split(',')]) if tags != "Uncategorized" else "`Uncategorized`"
+        
+        markdown += f"| {problem_id} | **{title}** | {difficulty} | {formatted_tags} | [💻 View Code]({REPO_URL}{folder}) |\n"
         
     return markdown
 
