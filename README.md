@@ -20,14 +20,6 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 ---
 
-## ⚙️ Automation Workflow
-This repository is maintained using a seamless automated CI/CD pipeline:
-1. **Submission:** Solutions are synced directly from the browser using the LeetSync extension.
-2. **GitHub Actions:** Every new push triggers a custom `.yml` workflow.
-3. **Auto-Generation:** A Python script scans the directory structure and dynamically rebuilds the solutions table below.
-
----
-
 ## 📂 Solutions Table
 
 <!---LeetCode Topics Start-->
@@ -65,6 +57,14 @@ This repository is maintained using a seamless automated CI/CD pipeline:
 | 1823 | **Find The Winner Of The Circular Game** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1823-find-the-winner-of-the-circular-game) |
 
 <!---LeetCode Topics End-->
+
+---
+
+## ⚙️ Automation Workflow
+This repository is maintained using a seamless automated CI/CD pipeline:
+1. **Submission:** Solutions are synced directly from the browser using the LeetSync extension.
+2. **GitHub Actions:** Every new push triggers a custom `.yml` workflow.
+3. **Auto-Generation:** A Python script scans the directory structure and dynamically rebuilds the solutions table below.
 
 ---
 > **Note:** If you are exploring the code, feel free to check the individual folders for the exact implementation details and runtime/memory complexity notes.
