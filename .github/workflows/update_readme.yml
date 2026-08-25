@@ -8,7 +8,6 @@ on:
     paths-ignore:
       - 'README.md'
       - '.github/**'
-      - 'generate_readme.py'
 
 permissions:
   contents: write
