@@ -108,7 +108,7 @@ def update_readme():
 
     with open(README_PATH, 'w', encoding='utf-8') as file:
         file.write(updated_content)
-    print(f"Successfully updated README.md with {len(seen_ids)} unique problems.")
+    print("Successfully updated README.md.")
 
 if __name__ == "__main__":
     update_readme()
