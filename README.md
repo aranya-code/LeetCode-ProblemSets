@@ -31,32 +31,39 @@ This repository is maintained using a seamless automated CI/CD pipeline:
 ## 📂 Solutions Table
 
 <!---LeetCode Topics Start-->
-## All Solved Problems
-| Problem |
-| ------- |
-| [0001-two-sum](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0001-two-sum) |
-| [0002-add-two-numbers](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0002-add-two-numbers) |
-| [0009-palindrome-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0009-palindrome-number) |
-| [0019-remove-nth-node-from-end-of-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0019-remove-nth-node-from-end-of-list) |
-| [0021-merge-two-sorted-lists](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0021-merge-two-sorted-lists) |
-| [0027-remove-element](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0027-remove-element) |
-| [0048-rotate-image](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0048-rotate-image) |
-| [0066-plus-one](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0066-plus-one) |
-| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0082-remove-duplicates-from-sorted-list-ii) |
-| [0083-remove-duplicates-from-sorted-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0083-remove-duplicates-from-sorted-list) |
-| [0086-partition-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0086-partition-list) |
-| [0100-same-tree](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0100-same-tree) |
-| [0160-intersection-of-two-linked-lists](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0160-intersection-of-two-linked-lists) |
-| [0189-rotate-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0189-rotate-array) |
-| [0203-remove-linked-list-elements](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0203-remove-linked-list-elements) |
-| [0206-reverse-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0206-reverse-linked-list) |
-| [0217-contains-duplicate](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0217-contains-duplicate) |
-| [0234-palindrome-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0234-palindrome-linked-list) |
-| [0268-missing-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0268-missing-number) |
-| [0414-third-maximum-number](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0414-third-maximum-number) |
-| [0876-middle-of-the-linked-list](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/0876-middle-of-the-linked-list) |
-| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
-| [1823-find-the-winner-of-the-circular-game](https://github.com/aranya-code/LeetCode-ProblemSets/tree/master/1823-find-the-winner-of-the-circular-game) |
+
+## 📝 All Solved Problems
+
+| # | Problem Title | Solution |
+| :---: | :--- | :---: |
+| 0001 | **Two Sum** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1-two-sum) |
+| 0001 | **Two Sum** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0001-two-sum) |
+| 0002 | **Add Two Numbers** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/2-add-two-numbers) |
+| 0002 | **Add Two Numbers** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0002-add-two-numbers) |
+| 0009 | **Palindrome Number** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0009-palindrome-number) |
+| 0009 | **Palindrome Number** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/9-palindrome-number) |
+| 0019 | **Remove Nth Node From End Of List** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0019-remove-nth-node-from-end-of-list) |
+| 0021 | **Merge Two Sorted Lists** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0021-merge-two-sorted-lists) |
+| 0027 | **Remove Element** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0027-remove-element) |
+| 0048 | **Rotate Image** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0048-rotate-image) |
+| 0066 | **Plus One** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0066-plus-one) |
+| 0082 | **Remove Duplicates From Sorted List Ii** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0082-remove-duplicates-from-sorted-list-ii) |
+| 0083 | **Remove Duplicates From Sorted List** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0083-remove-duplicates-from-sorted-list) |
+| 0086 | **Partition List** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0086-partition-list) |
+| 0100 | **Same Tree** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0100-same-tree) |
+| 0160 | **Intersection Of Two Linked Lists** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0160-intersection-of-two-linked-lists) |
+| 0175 | **Combine Two Tables** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/175-combine-two-tables) |
+| 0189 | **Rotate Array** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0189-rotate-array) |
+| 0203 | **Remove Linked List Elements** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0203-remove-linked-list-elements) |
+| 0206 | **Reverse Linked List** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0206-reverse-linked-list) |
+| 0217 | **Contains Duplicate** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0217-contains-duplicate) |
+| 0234 | **Palindrome Linked List** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0234-palindrome-linked-list) |
+| 0268 | **Missing Number** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0268-missing-number) |
+| 0414 | **Third Maximum Number** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0414-third-maximum-number) |
+| 0876 | **Middle Of The Linked List** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0876-middle-of-the-linked-list) |
+| 1464 | **Maximum Product Of Two Elements In An Array** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1464-maximum-product-of-two-elements-in-an-array) |
+| 1823 | **Find The Winner Of The Circular Game** | [💻 View Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1823-find-the-winner-of-the-circular-game) |
+
 <!---LeetCode Topics End-->
 
 ---
