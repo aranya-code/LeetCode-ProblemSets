@@ -61,13 +61,24 @@ def generate_markdown_table(folders):
     markdown += "| # | Problem Title | Difficulty | Topic Tags | Solution |\n"
     markdown += "| :---: | :--- | :---: | :--- | :---: |\n"
     
+    seen_ids = set()
+    
     for folder in folders:
         problem_id, title, difficulty, tags, slug = format_problem_name(folder)
+        
+        # Skip this iteration if we already added a folder for this problem ID
+        if problem_id in seen_ids:
+            continue
+        seen_ids.add(problem_id)
+        
+        # Inject non-breaking spaces to prevent GitHub from wrapping the text
+        difficulty_nowrap = difficulty.replace(" ", "&nbsp;")
         
         # Format tags with inline code blocks for a clean UI look
         formatted_tags = " ".join([f"`{tag.strip()}`" for tag in tags.split(',')]) if tags != "Uncategorized" else "`Uncategorized`"
         
-        markdown += f"| {problem_id} | **{title}** | {difficulty} | {formatted_tags} | [💻 View Code]({REPO_URL}{folder}) |\n"
+        # Added non-breaking spaces to "View Code" as well to keep it perfectly aligned
+        markdown += f"| {problem_id} | **{title}** | {difficulty_nowrap} | {formatted_tags} | [💻&nbsp;View&nbsp;Code]({REPO_URL}{folder}) |\n"
         
     return markdown
 
@@ -97,7 +108,7 @@ def update_readme():
 
     with open(README_PATH, 'w', encoding='utf-8') as file:
         file.write(updated_content)
-    print(f"Successfully updated README.md with {len(folders)} problems.")
+    print(f"Successfully updated README.md with {len(seen_ids)} unique problems.")
 
 if __name__ == "__main__":
     update_readme()
