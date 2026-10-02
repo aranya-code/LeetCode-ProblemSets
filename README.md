@@ -28,11 +28,12 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 | # | Problem Title | Difficulty | Topic Tags | Solution |
 | :---: | :--- | :---: | :--- | :---: |
-| 0001 | **Two Sum** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Array` `Hash Table` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1-two-sum) |
+| 0001 | **Two Sum** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Array` `Hash Table` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0001-two-sum) |
 | 0002 | **Add Two Numbers** | <img src='https://img.shields.io/badge/-Medium-yellow'> | `Linked List` `Math` `Recursion` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/2-add-two-numbers) |
-| 0009 | **Palindrome Number** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Math` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0009-palindrome-number) |
+| 0009 | **Palindrome Number** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Math` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/9-palindrome-number) |
 | 0019 | **Remove Nth Node From End Of List** | <img src='https://img.shields.io/badge/-Medium-yellow'> | `Linked List` `Two Pointers` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0019-remove-nth-node-from-end-of-list) |
 | 0021 | **Merge Two Sorted Lists** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Linked List` `Recursion` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0021-merge-two-sorted-lists) |
+| 0026 | **Remove Duplicates From Sorted Array** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Array` `Two Pointers` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/26-remove-duplicates-from-sorted-array) |
 | 0027 | **Remove Element** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Array` `Two Pointers` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0027-remove-element) |
 | 0048 | **Rotate Image** | <img src='https://img.shields.io/badge/-Medium-yellow'> | `Array` `Math` `Matrix` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0048-rotate-image) |
 | 0066 | **Plus One** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Array` `Math` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0066-plus-one) |
