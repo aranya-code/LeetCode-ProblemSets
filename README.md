@@ -57,6 +57,7 @@ This repository contains my personal solutions to various LeetCode challenges, e
 | 0876 | **Middle Of The Linked List** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Linked List` `Two Pointers` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/0876-middle-of-the-linked-list) |
 | 1464 | **Maximum Product Of Two Elements In An Array** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Array` `Sorting` `Heap (Priority Queue)` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1464-maximum-product-of-two-elements-in-an-array) |
 | 1823 | **Find The Winner Of The Circular Game** | <img src='https://img.shields.io/badge/-Medium-yellow'> | `Array` `Math` `Recursion` `Queue` `Simulation` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/1823-find-the-winner-of-the-circular-game) |
+| 2552 | **Maximum Sum Of Distinct Subarrays With Length K** | <img src='https://img.shields.io/badge/-Medium-yellow'> | `Array` `Hash Table` `Sliding Window` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | 2608 | **Count The Digits That Divide A Number** | <img src='https://img.shields.io/badge/-Easy-brightgreen'> | `Math` | [💻&nbsp;View&nbsp;Code](https://github.com/aranya-code/LeetCode-ProblemSets/tree/main/2608-count-the-digits-that-divide-a-number) |
 
 <!---LeetCode Topics End-->
