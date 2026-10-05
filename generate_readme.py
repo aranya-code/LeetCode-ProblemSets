@@ -100,8 +100,8 @@ def format_problem_name(folder_name):
     return "-", folder_name, BADGE_UNKNOWN, "Uncategorized", folder_name
 
 def generate_markdown_table(folders):
-    """Generates a GitHub-friendly HTML table with alternating dark rows."""
-    html = """## 📝 All Solved Problems
+    """Generates a polished GitHub-native Markdown table."""
+    markdown = """## 📝 All Solved Problems
 
 <div align="center">
   <sub>A structured collection of LeetCode solutions, organized by problem, difficulty, and topic.</sub>
@@ -109,21 +109,11 @@ def generate_markdown_table(folders):
 
 <br>
 
-<table>
-  <thead>
-    <tr bgcolor="#161b22">
-      <th align="center">#</th>
-      <th align="left">Problem</th>
-      <th align="center">Difficulty</th>
-      <th align="left">Topics</th>
-      <th align="center">Solution</th>
-    </tr>
-  </thead>
-  <tbody>
+| # | Problem | Difficulty | Topics | Solution |
+| :---: | :--- | :---: | :--- | :---: |
 """
 
     seen_ids = set()
-    row_index = 0
 
     for folder in folders:
         problem_id, title, difficulty, tags, slug = format_problem_name(folder)
@@ -132,30 +122,23 @@ def generate_markdown_table(folders):
             continue
         seen_ids.add(problem_id)
 
-        # Alternate between two GitHub-style dark backgrounds.
-        row_bg = "#0d1117" if row_index % 2 == 0 else "#161b22"
-        row_index += 1
-
+        # Keep the existing Shields.io difficulty badges because they render
+        # consistently across GitHub light and dark themes.
         formatted_tags = (
-            " ".join(f"<code>{tag.strip()}</code>" for tag in tags.split(","))
+            " ".join(f"`{tag.strip()}`" for tag in tags.split(","))
             if tags != "Uncategorized"
-            else "<code>Uncategorized</code>"
+            else "`Uncategorized`"
         )
 
-        html += f"""    <tr bgcolor="{row_bg}">
-      <td align="center"><b>{problem_id}</b></td>
-      <td><b>{title}</b></td>
-      <td align="center">{difficulty}</td>
-      <td>{formatted_tags}</td>
-      <td align="center"><a href="{REPO_URL}{folder}">💻 View Code</a></td>
-    </tr>
-"""
+        # Keep the solution link compact so it does not wrap into multiple lines.
+        solution_link = f"[💻 Code]({REPO_URL}{folder})"
 
-    html += """  </tbody>
-</table>
-"""
+        markdown += (
+            f"| **{problem_id}** | **{title}** | {difficulty} | "
+            f"{formatted_tags} | {solution_link} |\n"
+        )
 
-    return html
+    return markdown
 
 def update_readme():
     if not os.path.exists(README_PATH):
