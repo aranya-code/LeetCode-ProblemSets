@@ -13,8 +13,6 @@ This repository contains my personal solutions to various LeetCode challenges, e
 ---
 
 ## 📊 LeetCode Statistics
-<!-- Replace 'YOUR_LEETCODE_USERNAME' with your actual LeetCode handle -->
-## 📊 LeetCode Statistics
 
 <div align="center">
 
@@ -23,8 +21,6 @@ This repository contains my personal solutions to various LeetCode challenges, e
 </div>
 
 ---
-
-## 📂 Solutions Table
 
 <!---LeetCode Topics Start-->
 
