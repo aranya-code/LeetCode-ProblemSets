@@ -14,32 +14,7 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 ## 📊 LeetCode Statistics
 <!-- Replace 'YOUR_LEETCODE_USERNAME' with your actual LeetCode handle -->
-
-<div align="center">
-  <img
-    src="https://leetcode-stats-iota.vercel.app/api/card?sections=profile%2Csolved%2Cskills%2Clanguages&theme=black-ice&username=aranya-code"
-    alt="LeetCode Stats"
-  />
-</div>
-
-<!---LeetCode Activity Start-->
-
-## 🕒 Recent Activities
-
-| Date | Status | Problem | Language |
-| :---: | :---: | :--- | :---: |
-| 05-Oct-2026 | ✅ Accepted | [Rotate String](https://leetcode.com/problems/rotate-string/) | python3 |
-| 04-Oct-2026 | ✅ Accepted | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | python3 |
-| 04-Oct-2026 | ✅ Accepted | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | python3 |
-| 04-Oct-2026 | ✅ Accepted | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | python3 |
-| 04-Oct-2026 | ✅ Accepted | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | python3 |
-| 04-Oct-2026 | ✅ Accepted | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | python3 |
-| 03-Oct-2026 | ✅ Accepted | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | python3 |
-| 02-Oct-2026 | ✅ Accepted | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | python3 |
-| 25-Aug-2026 | ✅ Accepted | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | python3 |
-| 25-Aug-2026 | ✅ Accepted | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | python3 |
-
-<!---LeetCode Activity End-->
+![LeetCode Stats](https://github-readme-leetcode-stats.vercel.app/api/card?sections=profile%2Csolved%2Cstreak%2Cskills%2Clanguages&theme=black-ice)
 
 ---
 
