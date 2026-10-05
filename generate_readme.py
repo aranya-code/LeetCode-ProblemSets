@@ -100,25 +100,62 @@ def format_problem_name(folder_name):
     return "-", folder_name, BADGE_UNKNOWN, "Uncategorized", folder_name
 
 def generate_markdown_table(folders):
-    """Generates a clean, 5-column markdown table including dynamic SVG difficulty badges."""
-    markdown = "## 📝 All Solved Problems\n\n"
-    markdown += "| # | Problem Title | Difficulty | Topic Tags | Solution |\n"
-    markdown += "| :---: | :--- | :---: | :--- | :---: |\n"
-    
+    """Generates a GitHub-friendly HTML table with alternating dark rows."""
+    html = """## 📝 All Solved Problems
+
+<div align="center">
+  <sub>A structured collection of LeetCode solutions, organized by problem, difficulty, and topic.</sub>
+</div>
+
+<br>
+
+<table>
+  <thead>
+    <tr bgcolor="#161b22">
+      <th align="center">#</th>
+      <th align="left">Problem</th>
+      <th align="center">Difficulty</th>
+      <th align="left">Topics</th>
+      <th align="center">Solution</th>
+    </tr>
+  </thead>
+  <tbody>
+"""
+
     seen_ids = set()
-    
+    row_index = 0
+
     for folder in folders:
         problem_id, title, difficulty, tags, slug = format_problem_name(folder)
-        
+
         if problem_id in seen_ids:
             continue
         seen_ids.add(problem_id)
-        
-        formatted_tags = " ".join([f"`{tag.strip()}`" for tag in tags.split(',')]) if tags != "Uncategorized" else "`Uncategorized`"
-        
-        markdown += f"| {problem_id} | **{title}** | {difficulty} | {formatted_tags} | [💻&nbsp;View&nbsp;Code]({REPO_URL}{folder}) |\n"
-        
-    return markdown
+
+        # Alternate between two GitHub-style dark backgrounds.
+        row_bg = "#0d1117" if row_index % 2 == 0 else "#161b22"
+        row_index += 1
+
+        formatted_tags = (
+            " ".join(f"<code>{tag.strip()}</code>" for tag in tags.split(","))
+            if tags != "Uncategorized"
+            else "<code>Uncategorized</code>"
+        )
+
+        html += f"""    <tr bgcolor="{row_bg}">
+      <td align="center"><b>{problem_id}</b></td>
+      <td><b>{title}</b></td>
+      <td align="center">{difficulty}</td>
+      <td>{formatted_tags}</td>
+      <td align="center"><a href="{REPO_URL}{folder}">💻 View Code</a></td>
+    </tr>
+"""
+
+    html += """  </tbody>
+</table>
+"""
+
+    return html
 
 def update_readme():
     if not os.path.exists(README_PATH):
