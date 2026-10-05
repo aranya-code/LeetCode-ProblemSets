@@ -14,7 +14,7 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 ## 📊 LeetCode Statistics
 <!-- Replace 'YOUR_LEETCODE_USERNAME' with your actual LeetCode handle -->
-![LeetCode Stats](https://github-readme-leetcode-stats.vercel.app/api/card?sections=profile%2Csolved%2Cstreak%2Cskills%2Clanguages&theme=black-ice)
+[![LeetCode Stats](https://github-readme-leetcode-stats.vercel.app/api/card?sections=profile%2Csolved%2Cstreak%2Cskills%2Clanguages&theme=black-ice)](https://leetcode-stats-iota.vercel.app/api/card?sections=profile%2Csolved%2Cstreak%2Cskills%2Clanguages&theme=black-ice)
 
 ---
 
