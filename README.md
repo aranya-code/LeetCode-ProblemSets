@@ -14,8 +14,12 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 ## 📊 LeetCode Statistics
 <!-- Replace 'YOUR_LEETCODE_USERNAME' with your actual LeetCode handle -->
+
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/aranya-code?theme=dark&font=baloo&ext=activity" alt="LeetCode Stats" />
+  <img
+    src="https://github-readme-leetcode-stats.vercel.app/api/card?sections=profile%2Csolved%2Cskills%2Clanguages&theme=calm"
+    alt="LeetCode Stats"
+  />
 </div>
 
 <!---LeetCode Activity Start-->
