@@ -17,7 +17,7 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 <div align="center">
   <img
-    src="https://github-readme-leetcode-stats.vercel.app/api/card?sections=profile%2Csolved%2Cskills%2Clanguages&theme=calm"
+    src="https://leetcode-stats-iota.vercel.app/api/card?sections=profile%2Csolved%2Cskills%2Clanguages&theme=calm&username=aranya-code"
     alt="LeetCode Stats"
   />
 </div>
