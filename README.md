@@ -14,7 +14,13 @@ This repository contains my personal solutions to various LeetCode challenges, e
 
 ## 📊 LeetCode Statistics
 <!-- Replace 'YOUR_LEETCODE_USERNAME' with your actual LeetCode handle -->
-![LeetCode Stats](https://leetcode-stats-pm9cptad0-aranyas-projects-3f872dab.vercel.app/api/card?sections=profile%2Csolved%2Cstreak%2Cskills%2Clanguages&theme=black-ice)
+## 📊 LeetCode Statistics
+
+<div align="center">
+
+![LeetCode Stats](https://leetcode-stats-iota.vercel.app/api/card?sections=profile%2Csolved%2Cstreak%2Cskills%2Clanguages&theme=black-ice)
+
+</div>
 
 ---
 
